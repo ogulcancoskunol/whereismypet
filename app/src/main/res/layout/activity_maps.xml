@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<fragment
+    android:id="@+id/map"
+    class="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true" />
+
+<Button
+    android:id="@+id/dbutton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#359c5e"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:padding="8dp"
+    android:layout_margin="5dp"
+    android:text="@string/go"
+    android:textColor="#ffffff"
+    android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/buttondog"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/dog"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/buttoncat"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/cat"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:layout_toEndOf="@id/buttondog"
+        android:layout_toRightOf="@id/buttondog" />
+
+</RelativeLayout>

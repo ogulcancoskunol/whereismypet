@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">whereismypetapp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">AIzaSyA5Tcv5k2GgYS3lrLVKuPUhHMQLbBnGFvs</string>
+    <string name="go">DIRECTION</string>
+</resources>
